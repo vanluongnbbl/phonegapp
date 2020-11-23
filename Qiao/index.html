@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" style="margin-bottom: 30px;">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="./images/res1.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./images/res2.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./images/res3.jpg" alt="Third slide">
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="margin-bottom: 60px;">
+        <!-- Restaurent rating form -->
+        <div class="raiting-container" id="rating-res">
+            <div style="text-align: center;">
+                <h3 class="rating-title">Restaurent Rating</h3>
+            </div>
+            <hr>
+            <form action="" class="rate-form ">
+                <div class="form-group row">
+                    <label for="res-name" class="col-sm-12 col-form-label">Restaurent Name:<strong
+                            style="color: red">*</strong></label>
+                    <div class="col-sm-12">
+                        <input class="form-control" type="text" id="res-name" required>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="res-customer-name" class="col-sm-12 col-form-label">Your Name:<strong
+                            style="color: red">*</strong></label>
+                    <div class="col-sm-12">
+                        <input class="form-control" type="text" id="res-customer-name" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="res-type">Restaurent Type:<strong style="color: red">*</strong></label>
+                    <select class="form-control" id="res-type" required>
+                        <option>Grill</option>
+                        <option>Fast Food</option>
+                        <option>Seafood</option>
+                    </select>
+                </div>
+                <div class="form-group row">
+                    <label for="res-date" class="col-12 col-form-label">Day Visited:<strong
+                            style="color: red">*</strong></label>
+                    <div class="col-12">
+                        <input class="form-control" type="date" value="2020-11-19" id="res-date" required>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="res-price" class="col-12 col-form-label">Average price per person:<strong
+                            style="color: red">*</strong></label>
+                    <div class="col-12">
+                        <input class="form-control" type="number" id="res-price" required>
+                    </div>
+                </div>
+
+                <div class="service">
+                    <div for="res-service">Service Rating:<strong style="color: red">*</strong></div>
+                    <div class="service-form rate-form-item">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="service-rating" id="service-improve"
+                                value="service-improve" checked>
+                            <label class="form-check-label" for="service-improve">
+                                Need to improve
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="service-rating" id="service-okay"
+                                value="service-okay">
+                            <label class="form-check-label" for="service-okay">
+                                Okay
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="service-rating" id="service-good"
+                                value="service-good">
+                            <label class="form-check-label" for="service-good">
+                                Good
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="service-rating" id="service-excellent"
+                                value="service-excellent">
+                            <label class="form-check-label" for="service-excellent">
+                                Excellent
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <!-- end service rating -->
+
+
+                <div class="clean">
+                    <div for="res-clean">Cleanliness Rating:<strong style="color: red">*</strong></div>
+                    <div class="clean-form rate-form-item">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="clean-rating" id="clean-improve"
+                                value="clean-improve" checked>
+                            <label class="form-check-label" for="clean-improve">
+                                Need to improve
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="clean-rating" id="clean-okay"
+                                value="clean-okay">
+                            <label class="form-check-label" for="clean-okay">
+                                Okay
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="clean-rating" id="clean-good"
+                                value="clean-good">
+                            <label class="form-check-label" for="clean-good">
+                                Good
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="clean-rating" id="clean-excellent"
+                                value="clean-excellent">
+                            <label class="form-check-label" for="clean-excellent">
+                                Excellent
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <!-- end clean rating -->
+
+                <div class="food-quality">
+                    <div for="res-food">Cleanliness Rating:<strong style="color: red">*</strong></div>
+                    <div class="food-form rate-form-item">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="food-rating" id="food-improve"
+                                value="food-improve" checked>
+                            <label class="form-check-label" for="food-improve">
+                                Need to improve
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="food-rating" id="food-okay"
+                                value="food-okay">
+                            <label class="form-check-label" for="food-okay">
+                                Okay
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="food-rating" id="food-good"
+                                value="food-good">
+                            <label class="form-check-label" for="food-good">
+                                Good
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="food-rating" id="food-excellent"
+                                value="food-excellent">
+                            <label class="form-check-label" for="food-excellent">
+                                Excellent
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <!-- end food rating -->
+
+                <div class="form-group">
+                    <label for="note">Notes</label>
+                    <textarea class="form-control" id="note" rows="4"></textarea>
+                </div>
+
+                <div style="display:flex; justify-content: flex-end;">
+                    <button type="button" class="btn btn-success">RATE</button>
+                </div>
+        </div>
+
+
+
+
+    </div>
+    </div>
+
+
+    <footer>
+        <div class="row">
+            <div class="col-6 text-center fot-home fot-item"
+                style="background-color: #343a40; border: 1px solid #343a40; ">
+                <a href="#" style="color: #fff;"><i class="fas fa-home"></i></a>
+            </div>
+            <div class="col-6 text-center fot-res fot-item" style="background-color: #fff;">
+                <a href="./restaurent.html" style="color: #000"><i class="fas fa-utensils"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Liao Restaurent</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">List Detail Restaurent</a>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <div class="container">
+
+        <div class="form-group row" style="margin-top: 30px; align-items: center;">
+            <label class="col-3" for="res-type"><b>Filter:</b></label>
+            <select class="form-control col-8" id="res-type" required>
+                <option>Grill</option>
+                <option>Fast Food</option>
+                <option>SeaFood</option>
+            </select>
+        </div>
+
+        <div class="res-detail-view">
+            <div class="row res-detail-item" style="justify-content: center">
+                <h4 class="restaurent-name">McDonal</h4>
+            </div>
+            <div class="user-form row">
+                <div class="wrap-avatar col-4">
+                    <img width="100%" src="./images/avatar.jpg" alt="">
+                </div>
+
+                <div class="user-info col-8">
+                    <div class="edit-delete">
+                        <i style="color: green; margin-right: 20px; cursor: pointer;" class="fas fa-edit"></i> <i
+                            style="color: red; cursor: pointer;" class="fas fa-trash-alt"></i>
+
+                    </div>
+                    <div class="row res-detail-item">
+                        <div class="col-12">Nguyen Luong</div>
+                    </div>
+                    <div class="row res-detail-item">
+                        <div class="col-3"><b>Date:</b></div>
+                        <div>10/10/2020</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row res-detail-item">
+                <div class="col-6"><b>Restaurent Type:</b></div>
+                <div>Grill</div>
+            </div>
+
+            <div class="row res-detail-item">
+                <div class="col-6"><b>Service Rating:</b></div>
+                <div>Okay</div>
+            </div>
+            <div class="row res-detail-item">
+                <div class="col-6"><b>Cleanliness Rating:</b></div>
+                <div>Okay</div>
+            </div>
+            <div class="row res-detail-item">
+                <div class="col-6"><b>Food Quality Rating:</b></div>
+                <div>Okay</div>
+            </div>
+            <div class="row res-detail-item">
+                <div class="col-6"><b>Average Rating: </b></div>
+                <div>Amazing Goodjob em</div>
+            </div>
+            <div class="row res-detail-item">
+                <div class="col-12"><b>Notes:</b></div>
+                <p class="desc-note col-12">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam fugiat nisi mollitia architecto
+                    temporibus assumenda excepturi veritatis. Repellat incidunt facilis ducimus, magni veritatis cumque,
+                    voluptate voluptates aliquid eveniet expedita inventore.
+                </p>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+        &copy;Copyright by vanluongnbbl@gmail.com
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

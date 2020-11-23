@@ -1,0 +1,51 @@
+.btn-noti {
+    width: 250px;
+    height: 70px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.wrap-btn {
+    margin-bottom: 20px;
+}
+
+.ring-bell {
+    position: relative;
+}
+
+.img-bell {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+footer {
+    background-color: #343a40 !important;
+    color: #fff;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 10px 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.img-avatar {
+    border-radius: 50%;
+}
+
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 15px;
+}
+
+header .row {
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}

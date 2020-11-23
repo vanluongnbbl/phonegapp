@@ -1,0 +1,33 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.fot-item {
+    border: 1px solid #e1e1e1;
+    padding: 7px 0;
+}
+
+.rate-form-item {
+    margin-left: 40px;
+}
+
+.user-info {
+    align-items: center;
+    margin: 20px 0;
+}
+
+.delete {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    color: red;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.res-detail-view {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e1e1e1;
+}
